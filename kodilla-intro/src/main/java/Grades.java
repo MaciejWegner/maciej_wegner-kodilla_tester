@@ -31,18 +31,13 @@ public class Grades {
                     return averageGrade;
     }
 
-    public int ostaniaWartosc(int[] grades) {
-        int iloscOcen = grades.length;
-                grades = new int [iloscOcen];
-        for(int i=0; i<grades.length; i++)
-            grades[i] = i+1;
-        int licznik=0;
-        while(licznik<grades.length)
-        licznik++;
-        int wys=grades[licznik];
-
-        {
-            return wys; }
+    public int ostaniaWartosc() {
+        if (this.size ==0) {
+            return 0;}
+        return this.grades[this.size-1];
         }
-    }
+
+
+        }
+
     //nie wiem jak zrobić "zwracanie ostatnio dodanej oceny" - chciałbym to przedyskutować
