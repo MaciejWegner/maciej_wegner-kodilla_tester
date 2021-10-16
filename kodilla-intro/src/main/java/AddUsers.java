@@ -12,10 +12,9 @@ public class AddUsers {
 public int averageAge(User[] users){//przyjmuje tablice jako parametr
 
     int sum = 0;
-    int i = 0
-     for(int i = 0; i < users.length; i++);
-
+         for(int i = 0; i < users.length; i++);
+    int i = 0;
     sum += users.length[i];
-return (users.length ==0) ? 0 : (sum / users.length);
+return (users.length==0)?0 : (sum / users.length);
         }
 }
