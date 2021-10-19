@@ -1,15 +1,16 @@
 public class Book {
-    private String author;
-    private String title;
+
+ private String author;
+private String title;
+public Book(String author, String title) {
+      this.author = author;
+      this.title = title;
+   }
 
     public static Book of(String author, String title) {
-        this.author = author;
-        this.title = title;
-    }
+  Book book=new Book(author, title);
+  return book;
+
+   }
 }
 
-
-//nie mogę wstawić private String author
-//oraz
-//
-//private String title

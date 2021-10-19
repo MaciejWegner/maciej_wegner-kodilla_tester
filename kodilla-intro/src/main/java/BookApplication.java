@@ -1,13 +1,11 @@
 public class BookApplication {
-    public static void main(String[] args) {
+ public static void main(String[] args) {
+     Book book = Book.of("Isaac Asimov", "The Galaxy");
 
-        Book book = Book.of("Isaac Asimov", "The Galaxy");
+     {
 
-        {
-
-            System.out.println(book);
-        }
-    }
+         System.out.println(book);
+     }}
 }
 
 

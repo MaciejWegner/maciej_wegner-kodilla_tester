@@ -8,29 +8,33 @@ public class AddUsers {
         User frankie = new User("Frankie", 45);
         User[] users = {anna, betty, carl, david, eva, frankie};
     }
+
     public int averageAge(User[] users) { //przyjmuje tablice jako parametr
         int result = 0;
-        for (int i = 0; i < users.length; i++) {
-            result += users[i].age;
-            return (users.length == 0) ? 0 : (result / users.length);
-        }}
+
+        for (int i = 0; i < users.length; i++) ;
+        int i = 0;
+        result += users[i].age;
+        return (users.length == 0) ? 0 : (result / users.length);
+    }
 
     public int minAge(User[] users) {
-      int result = 0;
-    for (int i = 0; i < users.length; i++) ;
-    int i = 0;
-    if (users[i].age < result / users.length) {;
-          return(users[i].age);
+        int result = 0;
+        for (int i = 0; i < users.length; i++) ;
+        int i = 0;
+        if (users[i].age < result / users.length);
+        {
+            return (users[i].age);
+        }
     }
-    }
+
     public int maxAge(User[] users) {
         int result = 0;
         for (int i = 0; i < users.length; i++) ;
         int i = 0;
-        if (users[i].age > result / users.length) {
-                    return(users[i].age);
+        if (users[i].age > result / users.length) ;
+        {
+            return (users[i].age);
         }
     }
-
 }
-
