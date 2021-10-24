@@ -13,7 +13,7 @@ public class OverrideOs extends OperatingSystem {
     }
 
     public OverrideOs(int windows10, int windows11) {
-        super( int Windows10, int Windows11);
+        super(windows10, windows11 );
         System.out.println("Publication Years");
     }
 }

@@ -20,7 +20,7 @@ public class OperatingSystem {
     }
 
     public void displayYearOfPublication() {
-        System.out.println("Years publication is:" + Windows10 + Windows11);
+        System.out.println("Years publication is:" + Windows10 + " " + Windows11);
     }}
 
 //        public int getWindows11(){
@@ -29,7 +29,7 @@ public class OperatingSystem {
 //        public int getWindows10(){
 //            return Windows10;
 //        }
-}
+//}
 // }
 //}
 //    Aby przećwiczyć i utrwalić wiedzę z zakresu dziedziczenia, wykonaj poniższe zadanie:
