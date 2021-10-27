@@ -1,34 +1,31 @@
 package com.kodilla.abstracts.homework;
 
 public class Person {
-    private int FirstName;
-    private int Age;
+    private final Job job;
+    private String firstName;
+    private int age;
 
-    public Person(int FirstName, int Age) {
-        this.FirstName = FirstName;
-        this.Age = Age;
 
-        public int getFirstName () {
-            return FirstName;
+    public Person(String firstName, int age, Job job) {
+        this.firstName = firstName;
+        this.age = age;
+        this.job = job;
 
-            //private Job() {
-            // super();
-            //}
+    }
 
-        }
-        public int getAge () {
-            return Age;
-        }
+    public void showResponsibilities() {
+        System.out.println(job.getResponsibilities());
     }
 
     public static void main(String[] args) {
 
         Job truckDriver = new TruckDriver();
         Job teacher = new Teacher();
-        Job doctor = new Doctor()
-        System.out.println("TruckDriver" + truckDriver.getResponsibilities() + " "
-                + "Teacher" + " " + teacher.getResponsibilities() +
-                "Doctor" + " " + doctor.getResponsibilities());
+        Job doctor = new Doctor();
+        Person person1 = new Person("Adam", 34, truckDriver);
+        person1.showResponsibilities();
+
     }
 }
+
 //w treści zadania jest mowa o tym że metoda ma zwracac obowiąki danej osoby - tylko//
