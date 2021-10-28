@@ -30,6 +30,10 @@ public class ageA {
     }
 
     public void checkName() {
-        System.out.println(name);
+        if (name != null) {
+            System.out.println(name);
+        } else {
+            System.out.println("Give name");
+        }
     }
 }
