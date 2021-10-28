@@ -29,11 +29,17 @@ public class ageA {
         }
     }
 
-    public void checkName() {
+    public boolean checkName() {
         if (name != null) {
-            System.out.println(name);
-        } else {
-            System.out.println("Give name");
+            return true;
+        }
+        else {
+            return false;
+
+        }
+
+
+
         }
     }
-}
+
