@@ -73,10 +73,7 @@ public class CashMachine {
     public int[] getTransactions() {
         return transactions;
     }
-
 }
-
-
 //    Utwórz pakiet com.kodilla.bank.homework, a w nim klasę CashMachine (Bankomat).
 //   ok Ma ona zawierać tablicę ze zrealizowanymi transakcjami (liczbowa wartość dodatnia,
 //    ok jeśli użytkownik wpłacił pieniądze i ujemna, jeśli użytkownik wypłacił pieniądze).
