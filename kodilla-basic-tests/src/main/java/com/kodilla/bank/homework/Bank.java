@@ -63,7 +63,7 @@ public class Bank {
     }
 
 
-    public int averageDepositAmount() {// metoda zawierająca średnią wartość wpłaty.
+    public double averageDepositAmount() {// metoda zawierająca średnią wartość wpłaty.
         int totalDeposit = 0;
         for (int i = 0; i < cashMachines.length; i++) {
             totalDeposit += cashMachines[i].sumDepositAmount();
