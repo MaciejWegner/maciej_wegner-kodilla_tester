@@ -33,7 +33,7 @@ public class CarsListApplication {
         for (Car car : cars) {
             CarUtils.describeCar(car);
         }
-        System.out.println("******************");
+        System.out.println("******************");//usunięcie metodą remove(Object o)
         cars.remove(opel);
         cars.remove(car1);
         System.out.println(cars.size());
