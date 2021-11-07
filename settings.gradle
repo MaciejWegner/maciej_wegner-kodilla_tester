@@ -3,4 +3,8 @@ include 'kodilla-intro'
 include 'kodilla-basic-tests'
 include 'kodilla-collections'
 include 'kodilla-collections-advanced'
+include 'kodilla-collections-advanced:com.kodilla.collections.adv.immutable'
+findProject(':kodilla-collections-advanced:com.kodilla.collections.adv.immutable')?.name = 'com.kodilla.collections.adv.immutable'
+include 'com.kodilla.collections.adv'
+include 'com.kodilla.collections.adv'
 
