@@ -11,5 +11,5 @@ public class Book {
 
     public final String getAuthor() { return  author; }
 
-    public final String getTitle() { return title; }
+    public String getTitle() { return title; }
 }
