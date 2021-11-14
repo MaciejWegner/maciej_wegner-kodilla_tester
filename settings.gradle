@@ -7,4 +7,5 @@ include 'kodilla-collections-advanced:com.kodilla.collections.adv.immutable'
 findProject(':kodilla-collections-advanced:com.kodilla.collections.adv.immutable')?.name = 'com.kodilla.collections.adv.immutable'
 include 'com.kodilla.collections.adv'
 include 'com.kodilla.collections.adv'
+include 'kodilla-stream'
 
