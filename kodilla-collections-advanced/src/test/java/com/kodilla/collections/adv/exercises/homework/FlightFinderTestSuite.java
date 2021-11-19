@@ -13,7 +13,7 @@ class FlightFinderTestSuite {
         //when
         List<Flight> departures = flightFinder.findFlightsFrom("Warszawa");
         //then
-        assertEquals(0, departures.size());
+        assertEquals(3, departures.size());
     }
     @Test
     public void ifGivenDepartureExistsCheckIfItAddToDepartureList(){
