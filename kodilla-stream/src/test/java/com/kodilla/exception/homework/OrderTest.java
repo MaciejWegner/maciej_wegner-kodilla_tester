@@ -8,5 +8,6 @@ public class OrderTest  {
     public void testGetNumber() {
         Order order = new Order("1");
         order.getNumber();
+        System.out.println(order);
     }
 }
