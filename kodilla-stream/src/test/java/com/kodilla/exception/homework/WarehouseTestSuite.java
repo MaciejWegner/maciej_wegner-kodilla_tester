@@ -25,6 +25,7 @@ public class WarehouseTestSuite {
         //        then
         assertThrows(OrderDoesntExistException.class, () -> warehouse.getOrder("88"));
     }
+
     @Test
     public void testGetNumber() {
         Order order = new Order("1");
