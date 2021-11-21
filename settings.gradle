@@ -9,4 +9,5 @@ include 'com.kodilla.collections.adv'
 include 'com.kodilla.collections.adv'
 include 'kodilla-stream'
 include 'kodilla-advanced-tests'
+include 'com.kodilla.parametrized_tests'
 
