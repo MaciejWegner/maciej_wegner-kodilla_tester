@@ -10,4 +10,7 @@ include 'com.kodilla.collections.adv'
 include 'kodilla-stream'
 include 'kodilla-advanced-tests'
 include 'com.kodilla.parametrized_tests'
+include 'kodilla-spring-basic'
+include 'kodilla-spring-basic:com.kodilla.spring.basic'
+findProject(':kodilla-spring-basic:com.kodilla.spring.basic')?.name = 'com.kodilla.spring.basic'
 
