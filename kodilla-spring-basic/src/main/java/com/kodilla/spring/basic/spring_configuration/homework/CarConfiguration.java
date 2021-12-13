@@ -18,7 +18,9 @@ public class CarConfiguration {
 
     @Bean
     @Scope("prototype")
-    public Car choseCar(LocalTime localTime) {
+    public Car chosenCar()
+    {
+        LocalTime localTime=LocalTime.now();
         boolean turned = validatePartOfDay(localTime);
         Car chosenCar = suiteCarToSeason(turned);
         return chosenCar;
